@@ -1,0 +1,52 @@
+.sidebar {
+    position: fixed;
+    margin-top: 30px;
+    width: 300px;
+    min-height: 400px;
+}
+.sidebar h5 {
+    color: rgb(9, 123, 141);
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: .7px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.scroll { 
+    max-height: 450px;
+    min-height: 150px;
+    overflow: auto;
+    background: #fff;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.member {
+    display: flex;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.295);
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.member img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid lightcoral;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.mem-text {
+    width: 80%;
+}
+.box {
+    width: 40%;
+}
